@@ -1,0 +1,12 @@
+export const AmplifyConfig = {
+  api_name: 'onef8',
+  api_paths: {
+    xr: '/xr',
+    stock: '/stock',
+  },
+  aws_cloud_logic_custom: [{
+    endpoint: 'YOUR ENDPOINT',
+    name: 'ApiGatewayRestApi',
+    region: 'us-west-2',
+  }]
+}
